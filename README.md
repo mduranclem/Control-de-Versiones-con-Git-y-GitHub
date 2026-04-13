@@ -1,7 +1,7 @@
 # Desarrollo y Arquitecturas Web
 
-**Estudiante:** [Tu Nombre y Apellido]  
-**Comisión:** [Tu Comisión o Curso]
+**Estudiante:** Mateo Durán
+**Comisión:** 4to - Turno noche
 
 ## Objetivo del Repositorio
 Este proyecto tiene como fin cumplir con la Actividad Inicial de la materia, estableciendo el flujo de trabajo básico con Git y GitHub. Se demuestra la capacidad de:
