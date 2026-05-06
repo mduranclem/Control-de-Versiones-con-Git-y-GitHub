@@ -1,0 +1,73 @@
+/* 1. Selector Universal: Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Selector de Etiqueta */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8; /* Azul muy pálido de fondo */
+    color: #2d3748;
+    line-height: 1.8;
+}
+
+/* 3. Selector de ID: Cabecera oscura */
+#cabecera-global {
+    background-color: #1a365d; /* Azul marino UE */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* 4. Selector de Clase: Layout del reporte */
+.contenedor-reporte {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 50px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    border-top: 8px solid #38a169; /* Borde verde superior */
+}
+
+.etiqueta-area {
+    color: #38a169;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.destacado-verde {
+    background-color: #f0fff4;
+    border-left: 5px solid #38a169;
+    padding: 20px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+/* 5. Selector Descendente: Lista dentro de puntos-clave */
+.puntos-clave li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #edf2f7;
+}
+
+.puntos-clave li::before {
+    content: "✔ ";
+    color: #38a169;
+}
+
+/* Estilo para el Aside (Victoria) */
+#seccion-victoria {
+    background-color: #2d3748;
+    color: #fff;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #1a365d;
+    margin: 15px 0;
+}
