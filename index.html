@@ -2,55 +2,53 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Actividad 03 - Marte y Suscripción</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Green Finance EU - Reporte</title>
 </head>
 <body>
 
-    <nav>
-        <a href="#">Inicio</a> | 
-        <a href="#suscripcion">Ir al Formulario</a>
-    </nav>
+    <header id="cabecera-global">
+        <nav class="menu-superior">
+            <span>Our Work</span> | <span>Latest</span> | <span>Resources</span>
+        </nav>
+    </header>
 
-    <main>
+    <main class="contenedor-reporte">
         <article>
-            <section id="noticia">
-                <h1>Hallazgo histórico: Agua en Marte</h1>
-                <h2>La NASA confirma depósitos de hielo bajo la superficie.</h2>
+            <header class="portada">
+                <span class="etiqueta-area">GREEN FINANCE EU</span>
+                <h1>Europa necesita un sistema financiero que mantenga la energía limpia y asequible</h1>
+                <p class="resumen">La soberanía de Europa depende de fortalecer la competitividad y apoyar un futuro más justo para todos.</p>
+            </header>
+
+            <section class="bloque-evidencia">
+                <h2>Energía y finanzas: nuestras facturas y empresas</h2>
+                <p>La evidencia muestra que los choques de precios de los combustibles fósiles representaron hasta el <strong>60% del pico de inflación en 2022</strong>.</p>
                 
-                <p>
-                    Científicos de la <strong>NASA</strong> han confirmado que 
-                    <span>el Planeta Rojo alberga agua sólida</span> en grandes cantidades. 
-                    Podés leer más en la <a href="https://www.nasa.gov" target="_blank">web oficial</a>.
-                </p>
-
-                <img src="marte1.webp" alt="Foto de la superficie de Marte" width="600">
+                <div class="destacado-verde">
+                    <p>Las instituciones públicas, incluido el Banco Central Europeo (BCE), tienen el poder de influir en cómo el dinero incentiva soluciones para el planeta.</p>
+                </div>
             </section>
 
-            <hr>
-
-            <section id="suscripcion">
-                <h3>¡Suscribite a nuestro Newsletter!</h3>
-                <p>Recibí todas las novedades del espacio en tu mail.</p>
-
-                <form action="#">
-                    <label for="nombre">Nombre completo:</label><br>
-                    <input type="text" id="nombre" name="nombre" placeholder="Escribí tu nombre" required>
-                    
-                    <br><br>
-
-                    <label for="email">Correo electrónico:</label><br>
-                    <input type="email" id="email" name="email" placeholder="nombre@correo.com" required>
-
-                    <br><br>
-
-                    <button type="submit">Enviar suscripción</button>
-                </form>
+            <section class="puntos-clave">
+                <h3>Nuestros puntos clave para una Europa más limpia</h3>
+                <ul class="lista-interactiva">
+                    <li><strong>Inversiones baratas:</strong> Reducir costos de préstamos para renovables.</li>
+                    <li><strong>Reglas del BCE:</strong> Desincentivar los combustibles fósiles en el sistema de colaterales.</li>
+                    <li><strong>Estabilidad:</strong> Priorizar bonos verdes para asegurar infraestructura estratégica.</li>
+                </ul>
             </section>
+
+            <aside id="seccion-victoria">
+                <h4>¡Victoria!</h4>
+                <p>En el verano de 2025, el BCE adoptó un nuevo "factor climático" en su marco de colaterales. Un avance histórico impulsado por nuestra incidencia.</p>
+            </aside>
         </article>
     </main>
 
     <footer>
-        <p>&copy; 2026 - Mateo Duran - Facultad de Tecnología (UAI)</p>
+        <p>Trabajo Práctico Clase 04 - Mateo Duran - 2026</p>
     </footer>
 
 </body>
